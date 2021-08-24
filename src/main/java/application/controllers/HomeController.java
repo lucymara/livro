@@ -1,8 +1,8 @@
 package application.controllers;
 
-importe org.Springframework.stereotype.Controller;
-importe org.Springframework.web.bind.annotation.RequestMapping;
-importe org.Springframework.web.bind.annotation.RequestMethod;
+import org.Springframework.stereotype.Controller;
+import org.Springframework.web.bind.annotation.RequestMapping;
+import org.Springframework.web.bind.annotation.RequestMethod;
 
 @controller
 public class HomeController {
