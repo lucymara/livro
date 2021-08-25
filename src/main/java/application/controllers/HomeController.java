@@ -1,14 +1,14 @@
 package application.controllers;
 
-import org.Springframework.stereotype.Controller;
-import org.Springframework.web.bind.annotation.RequestMapping;
-import org.Springframework.web.bind.annotation.RequestMethod;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
-@controller
+@Controller
 public class HomeController {
     @RequestMapping(method=RequestMethod.GET)
     public String index(){
-        return "home/index.jsp"
+        return "home/index.jsp";
     }
 
 }
